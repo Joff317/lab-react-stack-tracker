@@ -1,0 +1,12 @@
+.technology{
+   display: flex;
+   width: 100%;
+   margin: 70px auto 0;
+   font-size: 20px;
+   justify-content: center;
+}
+
+.back-button{
+   width: 200px;
+   padding: 20px;
+}

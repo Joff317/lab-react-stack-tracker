@@ -1,0 +1,31 @@
+.home {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   margin: 70px auto 0;
+   font-size: 20px;
+   justify-content: center;
+   text-align: center;
+}
+
+.company-logo {
+   width: 100px;
+   height: 100px;
+}
+
+.company-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin: 0 auto;
+   width: 30%;
+}
+
+.card-company {
+   width: 200px;
+   margin: 10px;
+   padding: 10px;
+   border-radius: 5px;
+   -webkit-box-shadow: 0px 5px 15px 0px rgba(78, 78, 78, 0.52);
+   box-shadow: 0px 5px 15px 0px rgba(78, 78, 78, 0.52);
+}

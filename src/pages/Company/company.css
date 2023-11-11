@@ -1,0 +1,75 @@
+.company {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   margin: 70px auto 0;
+   font-size: 20px;
+   justify-content: center;
+   text-align: center;
+}
+
+.big-container {
+   display: flex;
+   flex-direction: row;
+   margin: 0 auto;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.left-container {
+   max-width: 500px;
+   border-radius: 5px;
+   padding: 50px;
+   margin-right: 300px;
+   -webkit-box-shadow: 0px 5px 15px 0px rgba(78, 78, 78, 0.52);
+   box-shadow: 0px 5px 15px 0px rgba(78, 78, 78, 0.52);
+}
+
+.comp-logo {
+   width: 100px;
+   height: 100px;
+   padding: 10px;
+}
+
+.about {
+   font-weight: bold;
+}
+
+.right-container {
+   max-width: 500px;
+}
+
+.card-tech-container {
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   overflow-x: scroll;
+   margin-top: 70px;
+   padding: 30px;
+}
+
+.card-tech {
+   width: 200px;
+   margin: 0 50px;
+}
+
+.img-container {
+   padding: 40px;
+   -webkit-box-shadow: 0px 5px 15px 0px rgba(78, 78, 78, 0.52);
+   box-shadow: 0px 5px 15px 0px rgba(78, 78, 78, 0.52);
+}
+
+.tech-img {
+   width: 100px;
+   height: 100px;
+}
+
+.back-button {
+   width: 200px;
+   padding: 20px;
+}
+
+.button-container{
+   width: 100%;
+   margin-top: 50px;
+}
